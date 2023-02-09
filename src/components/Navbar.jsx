@@ -36,7 +36,7 @@ export default function Navbar({isScrolled}) {
           <div className="left flex a-center">
             <div className="brand flex a-center j-center">
               {/* <img src={logo} alt="logo" /> */}
-              <video src={logoV} autoPlay loop autoStart/>
+              <video src={logoV} autoPlay loop muted/>
               
             </div>
             <ul className="links flex">

@@ -11,7 +11,7 @@ export default function Header(props) {
     <Container className="flex a-center j-between">
       <div className="logo">
         {/* <img src={logo} alt="logo" /> */}
-        <video src={logo2} autoPlay loop/>
+        <video src={logo2} autoPlay loop muted/>
       </div>
       {props.btn && (
         <button
