@@ -36,7 +36,8 @@ export default function Navbar({isScrolled}) {
           <div className="left flex a-center">
             <div className="brand flex a-center j-center">
               {/* <img src={logo} alt="logo" /> */}
-              <video src={logoV} autoPlay loop />
+              <video src={logoV} autoPlay loop autoStart/>
+              
             </div>
             <ul className="links flex">
               {links.map(({ name, link }) => {
