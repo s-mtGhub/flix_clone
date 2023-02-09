@@ -78,7 +78,7 @@ export default function Navbar({isScrolled}) {
                 }}
               />
             </div>
-            <div className="pro" title='Upgrade to Pro'>
+            <div className="pro" title='Upgrade to Pro' onClick={()=>navigate("/subscription")}>
               <FaMoneyCheckAlt />
             </div>
             <button onClick={Logout} title="logout">
